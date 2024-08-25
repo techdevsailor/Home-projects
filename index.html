@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfoilo Project</title>
+    <link rel="stylesheet" href="styel.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">First Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          This is my <span class="blue">Portfolio</span>
+          <div>and I'm learning</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="dev.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <secton class="secondSection">
+        <h1>Past Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img src="html.png" alt="" class="img-top" />
+            <div class="vertical-text">HTML Developer (Jan-Feb)</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              dolorem? Provident minus, quidem recusandae libero, velit
+              aspernatur doloribus, commodi necessitatibus deleniti iusto
+              consequatur repellendus eveniet animi perferendis voluptate
+              numquam officia!
+            </p>
+          </div>
+          <div class="vertical">
+            <img src="css.png" alt="" class="img-top" />
+            <div class="vertical-text">CSS Developer (Mar-Apr)</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              dolorem? Provident minus, quidem recusandae libero, velit
+              aspernatur doloribus, commodi necessitatibus deleniti iusto
+              consequatur repellendus eveniet animi perferendis voluptate
+              numquam officia!
+            </p>
+          </div>
+          <div class="vertical">
+            <img src="js.png" alt="" class="img-top" />
+            <div class="vertical-text">JS Developer (May-Jun)</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              dolorem? Provident minus, quidem recusandae libero, velit
+              aspernatur doloribus, commodi necessitatibus deleniti iusto
+              consequatur repellendus eveniet animi perferendis voluptate
+              numquam officia!
+            </p>
+          </div>
+          <div class="vertical">
+            <img src="react.png" alt="" class="img-top" />
+            <div class="vertical-text">React Developer (Jul-Aug) </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              dolorem? Provident minus, quidem recusandae libero, velit
+              aspernatur doloribus, commodi necessitatibus deleniti iusto
+              consequatur repellendus eveniet animi perferendis voluptate
+              numquam officia!
+            </p>
+          </div>
+          <div class="vertical">
+            <img src="mdb.png" alt="" class="img-top" />
+            <div class="vertical-text">MongoDB Developer (Sep-Oct)</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              dolorem? Provident minus, quidem recusandae libero, velit
+              aspernatur doloribus, commodi necessitatibus deleniti iusto
+              consequatur repellendus eveniet animi perferendis voluptate
+              numquam officia!
+            </p>
+          </div>
+        </div>
+      </secton>
+    </main>
+    <!-- <footer>
+        <div class="flex">
+            <div class="foorer-first">
+                <h3>First Portfolio</h3>
+            </div>
+            <div class="foorer-second"></div>
+            <div class="foorer-third"></div>
+            <div class="foorer-fourth"></div>
+        </div>
+    </footer> -->
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Frontend Development", "Backend Development", "Programming"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
